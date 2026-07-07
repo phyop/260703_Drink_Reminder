@@ -1,0 +1,13 @@
+# Keep sensitive local health notes out of the public repository.
+健康監控提醒系統_討論串交接摘要_2026-07-01.md
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated files
+*.log
+*.tmp
+__pycache__/
