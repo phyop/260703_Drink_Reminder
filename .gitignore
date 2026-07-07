@@ -1,13 +1,21 @@
-# Keep sensitive local health notes out of the public repository.
-健康監控提醒系統_討論串交接摘要_2026-07-01.md
+# Local/private setup notes
+*handoff*
+*summary*
+*private*
+*secret*
+*token*
+*健康*
+*交接*
+
+# Runtime dependencies and generated output
+node_modules/
+outputs/
+*.log
+*.tmp
+__pycache__/
 
 # OS and editor files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Generated files
-*.log
-*.tmp
-__pycache__/
