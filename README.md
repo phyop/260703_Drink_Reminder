@@ -840,6 +840,10 @@ Use placeholders in public documentation:
 - [ ] The Vitamin C button writes to Google Sheets.
 - [ ] Tapping an old button replies with `Already logged` and does not duplicate the record.
 
+## Related Publication
+
+- [Building a Phone-First Health Reminder System](https://medium.com/@seek1andfind2/building-a-phone-first-health-reminder-system-e4b415e71db5)
+
 ## Lessons Learned
 
 - Scheduled personal automation needs state, not just reminders.
