@@ -362,7 +362,7 @@ Optional:
 | `OPENAI_API_KEY` | Enables automatic OpenAI weekly analysis |
 | `OPENAI_MODEL` | Overrides the default OpenAI model |
 
-If `OPENAI_API_KEY` is not set, the system still works. Telegram receives the raw weekly report and you can paste it into ChatGPT manually. If `OPENAI_MODEL` is not set, the script defaults to `gpt-5.2-mini`.
+If `OPENAI_API_KEY` is not set, the system still works. Telegram receives the raw weekly report and you can paste it into ChatGPT manually. If `OPENAI_MODEL` is not set, the script defaults to the documented API model ID `gpt-5-mini`.
 
 ### 7. Test Telegram Delivery
 
@@ -630,7 +630,7 @@ https://api.openai.com/v1/responses
 
 It sends:
 
-- `model`: `OPENAI_MODEL` or default `gpt-5.2-mini`
+- `model`: `OPENAI_MODEL` or default `gpt-5-mini`
 - `input`: a prompt asking for concise, non-diagnostic feedback in Traditional Chinese
 - `max_output_tokens`: `1200`
 

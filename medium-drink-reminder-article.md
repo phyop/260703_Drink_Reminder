@@ -149,7 +149,7 @@ It covers the current day plus the previous six days. It lists daily rows with w
 
 The report ends with an instruction to analyze trends, adherence, missing data, and practical next-week suggestions. It explicitly says not to diagnose and to suggest consulting a clinician if readings are concerning.
 
-If `OPENAI_API_KEY` is not configured, the raw weekly report is sent to Telegram with instructions to paste it into ChatGPT. If the key is configured, Apps Script calls `https://api.openai.com/v1/responses` with `OPENAI_MODEL` or the default `gpt-5.2-mini`, `max_output_tokens` set to 1200, and a prompt asking for concise, non-diagnostic feedback in Traditional Chinese.
+If `OPENAI_API_KEY` is not configured, the raw weekly report is sent to Telegram with instructions to paste it into ChatGPT. If the key is configured, Apps Script calls `https://api.openai.com/v1/responses` with `OPENAI_MODEL` or the documented API model ID `gpt-5-mini`, `max_output_tokens` set to 1200, and a prompt asking for concise, non-diagnostic feedback in Traditional Chinese.
 
 If the API call fails, the bot sends an error wrapper with the HTTP status and the raw report. If OpenAI returns no text, the bot sends a fallback message and the report. Long Telegram messages are split into 3500-character chunks.
 

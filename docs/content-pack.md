@@ -6,7 +6,7 @@
 - Designed the Apps Script reminder engine around explicit state and idempotency; used one-minute `checkReminders` triggers, three-minute due windows, `sent:YYYY-MM-DD:<key>` Script Properties, and CacheService duplicate update protection for 21600 seconds to prevent repeated Telegram sends and duplicate callback writes.
 - Implemented Telegram-based mobile UX for Android; added `Done 250cc`, `Vitamin C done`, and `Log later` inline buttons, chat confirmations for successful and already-logged callbacks, and text parsing for `BP 120/80 weight 70` plus localized keyword alternatives.
 - Modeled Google Sheets as a lightweight operational database with one `Log` row per `Asia/Taipei` calendar day; captured `date`, water formulas, 10 water booleans, Vitamin C state/time, systolic/diastolic BP, weight, last water time, notes, and update timestamps.
-- Added weekly AI-ready reporting; generated seven-day summaries with water averages, target completion, Vitamin C adherence, BP+weight completion, average BP, average weight, missing-data notes, non-diagnostic guidance, and optional OpenAI Responses API analysis using `OPENAI_API_KEY`, `OPENAI_MODEL`, and a default `gpt-5.2-mini` model.
+- Added weekly AI-ready reporting; generated seven-day summaries with water averages, target completion, Vitamin C adherence, BP+weight completion, average BP, average weight, missing-data notes, non-diagnostic guidance, and optional OpenAI Responses API analysis using `OPENAI_API_KEY`, `OPENAI_MODEL`, and the documented API model ID `gpt-5-mini` by default.
 - Hardened setup and operations for public reuse; documented BotFather setup, Telegram `getUpdates`, Apps Script Web App deployment, `WEBHOOK_SECRET`, `WEB_APP_URL`, webhook setup, trigger creation, deployment versioning, security placeholders, and troubleshooting paths.
 
 ## LinkedIn Post (~300 words)
@@ -86,7 +86,7 @@ This PR rewrites and expands the public-facing content for the Drink Reminder He
 - Telegram webhook handling for `message` and `callback_query`.
 - `WEBHOOK_SECRET` handling.
 - CacheService duplicate protection for `update_id` for `21600` seconds.
-- OpenAI optional path with `OPENAI_API_KEY`, `OPENAI_MODEL`, default `gpt-5.2-mini`, Responses API endpoint, `max_output_tokens: 1200`, and Traditional Chinese non-diagnostic summary behavior.
+- OpenAI optional path with `OPENAI_API_KEY`, `OPENAI_MODEL`, default `gpt-5-mini`, Responses API endpoint, `max_output_tokens: 1200`, and Traditional Chinese non-diagnostic summary behavior.
 - Telegram chunking at `3500` characters.
 - Apps Script deployment-version rule and troubleshooting details.
 
