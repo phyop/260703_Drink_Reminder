@@ -316,7 +316,7 @@ function analyzeWeeklyReport_(report) {
     return "";
   }
 
-  const model = (props.getProperty("OPENAI_MODEL") || "gpt-5.2-mini").trim();
+  const model = (props.getProperty("OPENAI_MODEL") || "gpt-5-mini").trim();
   const prompt = [
     "You are helping summarize personal health tracking data.",
     "Provide concise, non-diagnostic feedback in Traditional Chinese.",
