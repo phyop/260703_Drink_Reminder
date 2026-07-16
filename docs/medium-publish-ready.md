@@ -167,11 +167,3 @@ Google Apps Script handles the scheduler and webhook. Telegram provides the phon
 For me, the most satisfying part is that the system knows when to stay quiet. If Vitamin C is already logged, no 17:00 backup. If blood pressure and weight are complete, no 21:30 backup. If an old water button is tapped again, no duplicate water count.
 
 That is the difference between a notification script and a useful automation.
-
-## SEO Description
-
-A practical walkthrough of building a cloud-based health reminder system with Telegram Bot API, Google Apps Script, Google Sheets, and optional OpenAI weekly analysis. The project covers water reminders, Vitamin C tracking, blood pressure and weight logging, webhook callbacks, duplicate protection, backup reminder logic, and AI-ready weekly summaries.
-
-## SEO Keywords
-
-Google Apps Script automation, Telegram bot health tracker, Google Sheets health log, drink reminder app, personal automation, OpenAI weekly summary, AI agent workflow, webhook automation, Android reminders, senior software engineer project

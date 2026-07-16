@@ -1,16 +1,4 @@
-# Medium Article Draft: Building a Telegram Health Reminder System with Google Apps Script
-
-## Title Options
-
-1. I Rebuilt My Health Reminders with Telegram, Google Apps Script, and Google Sheets
-2. From Missed Water Breaks to a Cloud Reminder Agent: A Practical Apps Script Build
-3. How I Built a Personal Health Tracking Bot with Telegram and Google Sheets
-4. The Small Automation That Taught Me Better AI Agent Design
-5. Building a Drink Reminder System That Works Even When My Laptop Is Off
-6. A Senior Engineer's Approach to Personal Health Automation
-7. Turning Telegram into a Lightweight Health Tracking Interface
-
-## Article
+# Building a Telegram Health Reminder System with Google Apps Script
 
 Most personal automation projects start with a tiny annoyance.
 
@@ -179,15 +167,3 @@ Google Apps Script handles the scheduler and webhook. Telegram provides the phon
 For me, the most satisfying part is that the system knows when to stay quiet. If Vitamin C is already logged, no 17:00 backup. If blood pressure and weight are complete, no 21:30 backup. If an old water button is tapped again, no duplicate water count.
 
 That is the difference between a notification script and a useful automation.
-
-## SEO Description
-
-A practical walkthrough of building a cloud-based health reminder system with Telegram Bot API, Google Apps Script, Google Sheets, and optional OpenAI weekly analysis. The project covers water reminders, Vitamin C tracking, blood pressure and weight logging, webhook callbacks, duplicate protection, backup reminder logic, and AI-ready weekly summaries.
-
-## SEO Keywords
-
-Google Apps Script automation, Telegram bot health tracker, Google Sheets health log, drink reminder app, personal automation, OpenAI weekly summary, AI agent workflow, webhook automation, Android reminders, senior software engineer project
-
-## Tags
-
-Google Apps Script, Telegram Bot, Google Sheets, Automation, OpenAI, AI Agents, Health Tracking, Personal Productivity, Webhooks, Software Engineering
